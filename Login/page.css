@@ -1,0 +1,67 @@
+.google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons_text {
+    font-size: smaller;
+}
+
+.icons_line {
+    position: relative;
+}
+
+.login_page_h1 {
+    font-family: monospace;
+    text-align: center;
+}
+
+.height_loginpage {
+    height: 38px;
+}
+
+.or_text {
+    position: absolute;
+    top: -14px;
+    background-color: white;
+    padding: 2px;
+    right: 12.2rem;
+    font-family: unset;
+}
+
+.hr_tag_login {
+    border: 1px solid darkgray;
+}
+
+.margin-padding {
+    padding-top: 15.7rem;
+    margin-bottom: 8rem;
+}
+
+@media (min-width: 800px) {
+    .div-body {
+      margin-top:-17rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .or_text {
+        right: 8.5rem;
+    }
+}
